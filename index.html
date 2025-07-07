@@ -1,79 +1,138 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhogendra Kusawaha - Portfolio</title>
-    <style>
-        /* CSS styles can be added here or in a separate file */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        h1 {
-            font-size: 2.5em;
-            color: #333;
-        }
-        .project {
-            margin-bottom: 20px;
-        }
-        .project h2 {
-            font-size: 1.8em;
-            color: #333;
-        }
-        .project p {
-            color: #666;
-        }
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            padding-top: 10px;
-            border-top: 1px solid #ccc;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Bhogendra Kusawaha </title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="./2.jpg" alt="" />
             <h1>Bhogendra Kusawaha</h1>
-            <p>Software Engineer & Educator</p>
-        </header>
-        
-        <section class="project">
-            <h2>Recent Projects</h2>
-            <p>Describe your projects here with links and details.</p>
-        </section>
-        
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Introduce yourself, your background, and your teaching experience.</p>
-        </section>
-        
-        <section class="contact">
-            <h2>Contact Me</h2>
-            <p>Email: bhogendrakusawaha@gmail.com<br>
-            Phone: +9779816779688<br>
-            LinkedIn: <a href="https://linkedin.com/yourprofile">linkedin.com/yourprofile</a></p>
-        </section>
-        
-        <footer>
-            <p>&copy; 2024 Bhogendra Kusawaha. All rights reserved.</p>
-        </footer>
+            <h3>Software Developer<br>& Freelancer</h3>
+            <div class="social-media">
+  <a href="https://www.facebook.com/bhogendrak" target="_blank"><i class="bx bxl-facebook"></i></a>
+  <a href="https://twitter.com/love_bhogi" target="_blank"><i class="bx bxl-twitter"></i></a>
+  <a href="https://www.linkedin.com/in/YOUR_USERNAME" target="_blank"><i class="bx bxl-linkedin"></i></a>
+  <a href="https://www.instagram.com/bhogendrakusawaha" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+  <a href="https://www.tiktok.com/@logic_killer" target="_blank"><i class="bx bxl-tiktok"></i></a>
+</div>
+
+            <p>
+  Hello! I’m Bhogendra Kusawaha, 
+  a passionate and detail-oriented software developer
+   specializing in web development. 
+   I enjoy building responsive, user-friendly 
+   websites and Mobile applications using modern 
+   technologies like HTML, CSS, JavaScript,
+    React, Node.js,python, java,php,android and more. With a strong 
+    foundation in both front-end and back-end 
+    development, I focus on creating efficient, 
+    scalable, and visually appealing digital 
+    solutions. Let’s build something great together!
+</p>
+
+        <!--<div class="btn-box">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
+            </div>-->
+          </div>
+        </div>
+
+
+
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn" id="turn-2">
+          <!-- page 3 (my services) -->
+          
+          <!-- page 4 (my skills) -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+            <div class="skills-box">
+              <div class="skills-content">
+                <h3>Front-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-html5"></i>HTML</span>
+                  <span><i class="bx bxl-css3"></i>CSS</span>
+                  <span><i class="bx bxl-javascript"></i>JS</span>
+                  <span><i class="bx bxl-react"></i>React</span>
+                  <span><i class="bx bxs-terminal"></i>Next.js</span>
+                  <span><i class="bx bxl-bootstrap"></i>Bootstrap</span>
+                  <span><i class="bx bxl-tailwind-css"></i>Tailwind</span>
+                </div>
+              </div>
+              <div class="skills-content">
+                <h3>Back-End</h3>
+                <div class="content">
+                  <span><i class="bx bxl-php"></i>PHP</span>
+                  <span><i class="bx bxl-android"></i>Android</span>
+                  <span><i class="bx bxl-nodejs"></i>Node</span>
+                  <span><i class="bx bx-terminal"></i>MySQL</span>
+                  <span><i class="bx bxl-python"></i>Python</span>
+                </div>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+        <!-- page 5 & 6 -->
+        <div class="book-page page-right turn" id="turn-3">
+          <!-- page 5 (latest project or my portfolio) -->
+          
+          <!-- page 6 (contact me) -->
+          <div class="page-back">
+            <h1 class="title">Contact Me!</h1>
+            <div class="contact-box">
+              <form action="#">
+                <input
+                  type="text"
+                  class="field"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="field"
+                  placeholder="Email Address"
+                  required
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  class="field"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <input type="submit" class="btn" value="Send Message" />
+              </form>
+            </div>
+
+            
+            
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-              </html>
+
+    <!-- what I used : HTML, CSS, JS, Boxicons,  -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
