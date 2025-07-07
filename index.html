@@ -11,6 +11,13 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("YOUR_USER_ID");
+  })();
+</script>
+
   </head>
 
   <body>
@@ -98,21 +105,23 @@
           <div class="page-back">
             <h1 class="title">Contact Me!</h1>
             <div class="contact-box">
-              <form action="#">
+              <form action="https://formspree.io/f/xpwrevkv" method=post>
                 <input
                   type="text"
+                  name="text"
                   class="field"
                   placeholder="Full Name"
                   required
                 />
                 <input
                   type="email"
+                  name="email"
                   class="field"
                   placeholder="Email Address"
                   required
                 />
                 <textarea
-                  name=""
+                  name="textarea"
                   id=""
                   cols="30"
                   rows="10"
